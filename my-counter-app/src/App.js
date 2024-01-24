@@ -15,6 +15,12 @@ export default function App() {
               <button style={{ color: 'green' }} className='control_btn add' onClick={() => setCount(count + 1)}>+</button>
               
               <button style={{ color: 'red' }} className='control_btn minus' onClick={() => setCount(count - 1)}>-</button>
+
+                  <div className='btn_container'>
+                  <button style={{ color: 'darkgreen' }} className='control_btn add' onClick={() => setCount(count + 5)}>+5</button>
+                  
+                  <button style={{ color: 'darkred' }} className='control_btn minus' onClick={() => setCount(count - 5)}>-5</button>
+
               
               <button className='reset' onClick={() => setCount(0)}>Reset</button>
               <br style={{ padding: '1.5em'}}></br>
